@@ -1,0 +1,9 @@
+package com.saurabh.CMS.exception;
+
+public class CustomerNotFoundException extends  RuntimeException{
+
+    public CustomerNotFoundException(String message){
+        super(message);
+
+    }
+}
